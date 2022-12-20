@@ -1,0 +1,208 @@
+[
+  {
+    "startTime": "10:00",
+    "date": "22-12-12",
+    "quickList": [
+      {
+        "address": {
+          "lat": 48.4241473,
+          "location_id": "tourstart_fcacb5cb-b923-85de-f50c-136396bfd67e",
+          "lon": 11.5302998
+        },
+        "time": "10:00",
+        "type": "start"
+      },
+      {
+        "address": {
+          "lat": 48.128735,
+          "location_id": "pickup_",
+          "lon": 11.570926
+        },
+        "time": "10:51",
+        "ids": [
+          "9f5418d6-45ee-7fcf-963f-59890448d3c1",
+          "7ced15fd-9ba3-7a53-7801-bdee3d8f7071"
+        ],
+        "type": "pickup"
+      },
+      {
+        "id": "9f5418d6-45ee-7fcf-963f-59890448d3c1",
+        "type": "task_delivery"
+      },
+      {
+        "id": "7ced15fd-9ba3-7a53-7801-bdee3d8f7071",
+        "type": "task_delivery"
+      },
+      {
+        "id": "cd3246e8-8782-2791-0ab6-92351544a2d1",
+        "type": "task_delivery"
+      },
+      {
+        "type": "end",
+        "time": "12:32",
+        "address": {
+          "location_id": "tourend_fcacb5cb-b923-85de-f50c-136396bfd67e",
+          "lat": 48.4241473,
+          "lon": 11.5302998
+        }
+      }
+    ],
+    "activities": [
+      {
+        "type": "start",
+        "waiting_time": 0,
+        "location_id": "tourstart_fcacb5cb-b923-85de-f50c-136396bfd67e",
+        "address": {
+          "lon": 11.5302998,
+          "lat": 48.4241473,
+          "location_id": "tourstart_fcacb5cb-b923-85de-f50c-136396bfd67e"
+        },
+        "preparation_time": 0,
+        "action_planed_time": "10:00"
+      },
+      {
+        "location_id": "pickup_",
+        "action_planed_time": "10:00",
+        "end_date_time": null,
+        "arr_time": 1670839200,
+        "end_time": 1670839200,
+        "address": {
+          "location_id": "pickup_",
+          "lon": 11.5302998,
+          "lat": 48.4241473
+        },
+        "preparation_time": 0,
+        "distance": 0,
+        "driving_time": 0,
+        "waiting_time": 0,
+        "type": "pickupShipment",
+        "id": "cd3246e8-8782-2791-0ab6-92351544a2d1",
+        "arr_date_time": null
+      },
+      {
+        "distance": 46,
+        "arr_date_time": null,
+        "id": "9f5418d6-45ee-7fcf-963f-59890448d3c1",
+        "address": {
+          "location_id": "pickup_",
+          "lat": 48.128735,
+          "lon": 11.570926
+        },
+        "location_id": "pickup_",
+        "end_date_time": null,
+        "action_planed_time": "10:51",
+        "ids": [
+          "9f5418d6-45ee-7fcf-963f-59890448d3c1",
+          "7ced15fd-9ba3-7a53-7801-bdee3d8f7071"
+        ],
+        "preparation_time": 0,
+        "arr_time": 1670842260,
+        "end_time": 1670842260,
+        "waiting_time": 0,
+        "type": "pickupShipment",
+        "driving_time": 51
+      },
+      {
+        "id": "7ced15fd-9ba3-7a53-7801-bdee3d8f7071",
+        "action_planed_time": "10:51",
+        "distance": 0,
+        "end_time": 1670842260,
+        "driving_time": 0,
+        "type": "pickupShipment",
+        "location_id": "pickup_",
+        "arr_date_time": null,
+        "waiting_time": 0,
+        "arr_time": 1670842260,
+        "end_date_time": null,
+        "preparation_time": 0,
+        "address": {
+          "lon": 11.570926,
+          "lat": 48.128735,
+          "location_id": "pickup_"
+        }
+      },
+      {
+        "arr_date_time": null,
+        "distance": 47,
+        "end_date_time": null,
+        "location_id": "deliverindividual_11.599999_48.433305",
+        "arr_time": 1670845380,
+        "preparation_time": 4,
+        "id": "9f5418d6-45ee-7fcf-963f-59890448d3c1",
+        "type": "deliverShipment",
+        "driving_time": 52,
+        "end_time": 1670845620,
+        "waiting_time": 0,
+        "address": {
+          "location_id": "deliverindividual_11.599999_48.433305",
+          "lat": 48.433305,
+          "lon": 11.599999
+        }
+      },
+      {
+        "preparation_time": 9,
+        "end_time": 1670846940,
+        "id": "7ced15fd-9ba3-7a53-7801-bdee3d8f7071",
+        "end_date_time": null,
+        "type": "deliverShipment",
+        "driving_time": 13,
+        "arr_date_time": null,
+        "location_id": "deliverindividual_11.508157_48.466704",
+        "waiting_time": 0,
+        "distance": 11,
+        "address": {
+          "lon": 11.508157,
+          "lat": 48.466704,
+          "location_id": "deliverindividual_11.508157_48.466704"
+        },
+        "arr_time": 1670846400
+      },
+      {
+        "driving_time": 0,
+        "waiting_time": 0,
+        "end_date_time": null,
+        "preparation_time": 9,
+        "address": {
+          "lon": 11.508157,
+          "lat": 48.466704,
+          "location_id": "deliverindividual_11.508157_48.466704"
+        },
+        "arr_time": 1670846940,
+        "distance": 0,
+        "type": "deliverShipment",
+        "end_time": 1670847480,
+        "id": "cd3246e8-8782-2791-0ab6-92351544a2d1",
+        "location_id": "deliverindividual_11.508157_48.466704",
+        "arr_date_time": null
+      },
+      {
+        "action_planed_time": "12:32",
+        "address": {
+          "location_id": "tourend_fcacb5cb-b923-85de-f50c-136396bfd67e",
+          "lat": 48.4241473,
+          "lon": 11.5302998
+        },
+        "waiting_time": 0,
+        "arr_time": 1671366720,
+        "type": "end",
+        "location_id": "tourend_fcacb5cb-b923-85de-f50c-136396bfd67e",
+        "end_time": 1671366720,
+        "preparation_time": 0
+      }
+    ],
+    "tasksToRemove": {},
+    "points": "[{\"coordinates\":[[11.530323,48.424239],[11.531129,48.424076],[11.53194,48.424674],[11.532814,48.424168],[11.585622,48.428471],[11.586651,48.428566],[11.597126,48.388053],[11.595369,48.361419],[11.61741,48.322144],[11.646866,48.262341],[11.634533,48.231792],[11.612928,48.188871],[11.594659,48.17773],[11.59072,48.175324],[11.599826,48.171898],[11.596001,48.163978],[11.60293,48.157935],[11.599475,48.151894],[11.586308,48.133544],[11.572466,48.12658],[11.570664,48.128368],[11.570876,48.128499],[11.570624,48.128703],[11.570814,48.128818],[11.570624,48.128703],[11.570876,48.128499],[11.570664,48.128368],[11.572354,48.126726],[11.573449,48.126343],[11.575714,48.127595],[11.593145,48.139497],[11.596084,48.14782],[11.600863,48.153466],[11.602064,48.155014],[11.600912,48.160375],[11.597462,48.173404],[11.596864,48.179935],[11.613712,48.189796],[11.647083,48.257234],[11.625336,48.309426],[11.5956,48.361462],[11.589591,48.426615],[11.591115,48.429456],[11.59851,48.430273],[11.599032,48.433023],[11.599518,48.43302],[11.599929,48.433358],[11.599518,48.43302],[11.599032,48.433023],[11.607405,48.450806],[11.566184,48.474872],[11.51069,48.484016],[11.507882,48.466737],[11.510511,48.463692],[11.523389,48.446869],[11.523601,48.424046],[11.528172,48.425071],[11.53194,48.424674],[11.531129,48.424076],[11.530323,48.424239]]}]",
+    "driver": "3418e7d9-1055-779d-080f-62dcc715fa57",
+    "startPoint": [{ "lon": 11.5302998, "lat": 48.4241473 }],
+    "tasksToAdd": {},
+    "completion_time": 152,
+    "distance": 112439.39600000001,
+    "vehicle": "car",
+    "status": "prepared",
+    "centralDelivery": false,
+    "optimizationId": "c2VsZi1tYW5hZ2VkLzIwMjItMTItMTgvZGNiODJjODFhOTIxMmZjZmQyZmM1ZjRhMjNhNGRlYzE1MTJmNTM3NGUwMjU2NTRkM2MyMDFlZGQ2OGE4MGRiNWU3Y2UyYmMzMjRmMzdjMjM5YTFkZjY5ZDEzNDZlOGY2OGY1NTUzNGQxNTI0ODg4YTRkMmRiOGIwMTMzNjlhYzAubWl4ZWRfanNvbg==",
+    "created": { "_seconds": 1671373211, "_nanoseconds": 389000000 },
+    "id": "ea2634c9-cb49-442d-9eb5-39b3ae532d6f",
+    "owner": "oxOIGit1FxOwiFEDZp0gy6TQbYi2"
+  }
+]

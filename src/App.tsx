@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Map } from "./component";
+import tours from "./mockdata/tours.json";
+import tasks from "./mockdata/tasks.json";
+import { useEffect, useMemo, useRef } from "react";
+import { Task } from "./types/Task";
+import Pin from "./types/Pin";
 
 function App() {
+  const ref = useRef(null);
+  const pins = useMemo<Pin[]>(
+    () =>
+      tasks.map((task) => ({
+        location: { lat: task.task_coords[0], lng: task.task_coords[1] },
+        color: "red",
+        type: task.task_type.toUpperCase(),
+      })),
+    []
+  );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
+        width: "100vw",
+      }}
+    >
+      <Map ref={ref} />
     </div>
   );
 }
